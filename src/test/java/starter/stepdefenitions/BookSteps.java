@@ -26,9 +26,8 @@ public class BookSteps {
         get.receiveValidHttpResponseCode();
 
     }
-    @And("I receive valid data for detail book ")
-    public void receiveValidDataForDetailUser(){
+    @And("I receive valid data for detail book")
+    public void iReceiveValidDataForDetailBook() {
         get.receiveValidDataForDetailBook();
-
     }
 }
