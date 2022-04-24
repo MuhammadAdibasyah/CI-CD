@@ -7,9 +7,4 @@ Feature: As a user I want to check book in bookstore So that i visit to bookstor
     Then I receive valid HTTP response code 200
     And I receive valid data for detail book
 
-#  @negative
-#  Scenario: GET Book - As admin i failed to see existing book with input data
-#    Given I set GET Book api endpoints
-#    When  I send GET Book HTTP request
-#    Then I receive valid HTTP response code 400
-#    And I receive error message
+
